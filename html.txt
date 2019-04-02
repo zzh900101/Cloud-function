@@ -1,0 +1,17 @@
+<html>
+<body>
+<center> <br> <br> <br>
+<form action="https://api.particle.io/v1/devices/your-device-ID-goeshere/led?access_token=291e5068869ced4704414d6d2c062cdb1425f116" method="POST">
+Toggle the LED!<br>
+<br>
+<input type="checkbox" name="args" value="red">Red LED.
+<br>
+<input type="checkbox" name="args" value="green">Green LED.
+<br>
+<input type="checkbox" name="args" value="blue">Blue LED.
+<br>
+<input type="submit" value="Send">
+</form>
+</center>
+</body>
+</html>
